@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="assets/css/bootstrap.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+
+		<title>Jira Tools</title>
+	</head>
+
+	<body class="p-3">
+		<h1>Jira Tools</h1>
+
+		<ul class="list-group" id="ticket-list"></ul>
+
+		<div class="mt-3">
+			<a href="#" class="link-primary" id="add-server">Add jira server</a>
+		</div>
+
+		<form id="creation-form" action="" class="d-none">
+			<div class="form-group">
+				<label for="url">Server URL</label>
+				<input
+					id="url"
+					type="text"
+					class="form-control"
+					name="url"
+					placeholder="Server URL"
+				/>
+			</div>
+			<button type="submit" class="btn btn-primary mt-3">Save</button>
+		</form>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

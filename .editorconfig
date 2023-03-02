@@ -1,0 +1,20 @@
+
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Use 4 spaces for indentation
+[*.{js,json,html}]
+indent_style = tab
+indent_size = 4
+
+# Do trim trailing whitespaces and remove UTF-8 byte order mark
+[*.{js,json,html}]
+trim_trailing_whitespace = true
+charset = utf-8
